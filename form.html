@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form tinh toan</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='form1.css'>
+    <script src='form2.js'></script>
+    
+</head>
+<body>    
+   <form id="form">
+       <h2>CHƯƠNG TRÌNH TÍNH TỔNG</h2>       
+       <label>a=</label><input class="txt" type="text" id="gta" placeholder="nhap gia trị số"><br>
+       <label>b=</label><input class="txt" type="text" id="gtb" placeholder="nhap gia trị số"><br>
+       <label>c=</label><input class="txt" type="text" id="gtc" readonly="readonly"><br>
+       <input class="bt" type="button" id="bt1" value="+" onclick="Sum()">
+       <input class="bt" type="button" id="bt3" value="-" onclick="Minus()">
+       <input class="bt" type="button" id="bt4" value="*" onclick="Nhan()">
+       <input class="bt" type="button" id="bt5" value="/" onclick="Chia()">
+       <input class="bt" type="button" id="bt2" value="RESET" onclick="reset()">
+       <p id="log"></p>      
+   </form>  
+</body>
+</html>
